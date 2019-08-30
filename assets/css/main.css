@@ -14,10 +14,15 @@ a {
 /* EXAMPLE CODE PLEASE REMOVE */
 
 .title{
-	color:#7B68EE;
-	text-align:center;
-	font-family:Courier;
+	width:100%;
+	padding:20px;
+	margin:20px;
 
+
+}
+
+.title img{
+	width:100%;
 }
 
 .bio{

@@ -6,7 +6,9 @@ body {
 }
 
 a {
-	color:red;
+	color:#00CED1;
+	text-decoration: none;
+	font-size:60px;
 }
 
 /* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
@@ -17,7 +19,6 @@ a {
 	width:90%;
 	padding:20px;
 	margin:auto;
-
 
 }
 

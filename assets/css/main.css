@@ -14,9 +14,9 @@ a {
 /* EXAMPLE CODE PLEASE REMOVE */
 
 .title{
-	width:75%;
+	width:90%;
 	padding:20px;
-	margin:20px;
+	margin:auto;
 
 
 }
@@ -41,14 +41,6 @@ a {
 	width:100%;
 }
 
-.cat{
-	width:500px;
-	border:3px;
-	margin:auto;
-}
-.cat img {
-	width:100%;
-}
 .main {
 	border: 2px solid black;
 	padding: 20px;

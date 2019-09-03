@@ -45,7 +45,7 @@ a {
 
 .research-item{
 	flex:0 0 33.333%;
-	padding:10px;
+	padding:30px;
 	transition:1s;
 	cursor:zoom-in;
 }
@@ -67,8 +67,12 @@ a {
 }
 
 .text{
-	flex:0 0 66.66%;
+
+	flex:0 0 80%;
 	padding:30px;
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:80px;
 }
 
 .text h1{
@@ -89,17 +93,14 @@ a {
 
 .figure{
 	flex:0 0 33.33%;
-}
+	
 
-.figure span {
-	color:gray;
-	font-size:18px;
 }
 
 .figure img{
 	width:100%;
-}
 
+}
 
 
 /*interactive classes*/

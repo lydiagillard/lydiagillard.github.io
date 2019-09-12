@@ -1,0 +1,240 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:black;
+	color:white;
+}
+
+a {
+	color:red;
+}
+
+
+/*Index Homepage*/
+
+.index-intro {
+	font-size:18px;
+	margin-bottom:25vh;
+	padding:10px;
+}
+
+.index-row {
+	display:flex;
+	flex-wrap:wrap;
+	padding:10px;
+	margin-bottom:5px;
+	margin-top:5px;
+	border-top: 2px solid white;
+
+
+}
+
+.index-name {
+	flex:0 0 50%;
+}
+
+.index-layer {
+	flex:0 0 25%;
+}
+
+.index-tag {
+	flex:0 0 25%;
+}
+
+/* Two Heatmap*/
+
+.heat {
+	
+	height:100vh;
+	width:100vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-image: radial-gradient(red, yellow, green, blue);
+}
+
+.heat-text{
+	color:black;
+	font-size:15vw;
+	text-align:center;
+}
+
+/* Three 3g*/
+
+.threeg {
+	
+	height:100vh;
+	width:100vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:blue ;
+}
+
+.threeg-text{
+	color:white;
+	font-size:15vw;
+	text-align:left;
+}
+
+/*four-tap on tap off*/
+
+.tapon {
+	
+	height:100vh;
+	width:100vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:black ;
+}
+
+.tapon-text{
+	color:lime;
+	font-size:10vw;
+}
+
+/*five secure*/
+
+.secure-type{
+width:80vw;
+height:80vh;
+display:flex;
+align-items: center;
+justify-content: center;
+position:fixed;
+left:0;
+top:0;
+}
+
+.secure-text{
+	font-family: courier;
+	font-size:10vw;
+	color:lime;
+	border:10px solid blue;
+	padding:5vw;
+	border-radius:10px;
+}
+
+/*six security*/
+
+.secure-type{
+width:80vw;
+height:80vh;
+display:flex;
+align-items: center;
+justify-content: center;
+position:fixed;
+left:0;
+top:0;
+}
+
+.promise-text{
+	font-family:Helvetica;
+	font-size:10vw;
+	color:blue;
+	border:10px solid blue;
+	padding:5vw;
+	border-radius:10px;
+}
+
+/*Checkers*/
+
+.checkers{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.checkers-white{
+	width:49vw;
+	height:50vh;
+	background-color:white;
+}
+
+.checkers-black{
+	width:49vw;
+	height:50vh;
+	background-color:black;
+}
+
+
+
+
+
+/*checkers-type*/
+
+.checkers-type{
+width:100vw;
+height:100vh;
+display:flex;
+align-items: center;
+justify-content: center;
+position:fixed;
+left:0;
+top:0;
+}
+
+.checkers-text{
+	font-size: 30vw;
+	color:lime;
+	border:30px solid lime;
+	padding:5vw;
+	border-radius:10px;
+}
+
+/*Cloud Pattern*/
+
+.cloud-pattern{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.cloud-circle{
+	width:25vw;
+	height:25vh;
+	background-image:linear-gradient (cyan,white);
+	border-radius:50%;
+}
+
+/*chip*/
+
+.chip-container{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+
+.chip{
+	width:60vh;
+	height:60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid gray;
+}
+
+.text{
+	font-size:7vw;
+	color:gray;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

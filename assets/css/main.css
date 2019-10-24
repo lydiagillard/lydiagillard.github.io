@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: line-through;
+}
+
 /* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
 
 /* EXAMPLE CODE PLEASE REMOVE */

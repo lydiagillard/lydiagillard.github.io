@@ -28,6 +28,12 @@ a {
 
 }
 
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .title img{
 	width:100%;
 }

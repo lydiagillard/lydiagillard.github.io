@@ -1,0 +1,100 @@
+body {
+	font-family: avenir;
+	font-size: 24px;
+	background-color:black;
+
+}
+
+a {
+	color:grey;
+	font-family: avenir;
+	text-decoration: none;
+	font-size:16px;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.nav{
+	width:100%;
+	background-color:black;
+	padding:10px;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+.nav-item{
+	background-color: navy;
+	display:inline-block;
+	padding:12px;
+	border-radius:4px;
+	color:orange;
+	text-decoration: none;
+
+}
+.intro {
+	padding: 70px;
+	font-size:10vh;
+	color:orange;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+
+.essay{ 
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:80px;
+}
+
+
+.text h1{
+	font-size: 70px;
+	color:orange;
+	font-family:avenir;
+	flex:0 0 100%;
+	padding:20px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.text p{
+	margin-bottom: 5px;
+	color:white;
+	text-align:left;
+	padding:6px;
+	letter-spacing:1px;
+
+}
+
+
+.title
+{
+	color:orange;
+
+}
+
+.research-item{
+	flex:0 0 33.333%;
+	padding:10px;
+	transition:1s;
+	cursor:zoom-in;
+}
+
+.research-item img {
+	width:100%;
+	
+}
+
+.research-item span{
+	color:grey;
+	font-size:16px;
+	font-family: avenir;
+
+}
